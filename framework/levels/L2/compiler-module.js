@@ -276,7 +276,7 @@ class L2Draw extends L1Draw{
         while(result === undefined){
             currentKey -= 1;
             result = map[currentKey];
-            if(currentKey <= 0){
+            if(currentKey < 0){
                 result = null;
                 break;
             }
